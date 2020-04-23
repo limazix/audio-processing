@@ -7,6 +7,13 @@ verify_ssl = true
 
 [packages]
 jupyterlab = "==2.1.0"
+scipy = "==1.4.1"
+numpy = "==1.18.2"
+pandas = "==1.0.3"
+torchaudio = "==0.5.0"
+torch = "==1.5.0"
+matplotlib = "==3.2.1"
+torchvision = "==0.6.0"
 
 [scripts]
 start = "jupyter lab"
